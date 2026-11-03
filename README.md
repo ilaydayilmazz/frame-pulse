@@ -7,7 +7,7 @@ Every pair of stop-motion frames holds small changes in light, camera position a
 - **As a tool**: it flags frames with mistakes, such as the animator's hand in the shot, a light flicker or a camera that moved.
 - **As art**: the movement between frames releases thousands of light particles that take the colours of the scene.
 
-![The pulse sculpture](docs/pulse_sculpture_mid.jpg)
+![The pulse sculpture](docs/pulse_sculpture.gif)
 
 ## First test
 
@@ -23,7 +23,9 @@ A 20-frame stop-motion of my own hand-painted ceramic mug, shot on a phone. I ma
 
 All planted mistakes were found, plus two camera shifts I did not plan. The camera signal is the least stable one: the phone was not on a tripod, so it moves a little in every frame, and small changes (even re-saving the images) can move which frames pass the threshold. A steadier setup and a better shift measure are part of the next steps.
 
-Videos: [the stop-motion with flags](docs/stop_motion.mp4) · [the pulse sculpture](docs/pulse_sculpture.mp4)
+![The stop-motion, flagged frames outlined](docs/stop_motion.gif)
+
+Full-quality videos: [the stop-motion with flags](docs/stop_motion.mp4) · [the pulse sculpture](docs/pulse_sculpture.mp4) (open the file, then *View raw* to play)
 
 ## The hidden data
 
